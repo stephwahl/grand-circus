@@ -1,0 +1,113 @@
+body {
+    font-family: "Arial";
+    /* background: linear-gradient(#fbc7d4, #9796f0); */
+    background-color: #e6ffff;
+    background-attachment: fixed;
+    /* position: relative;  */
+    /* height: 100vh; */
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    /* background-image: url("money.jpg"); */
+    /* background-attachment: fixed; */
+    /* background-color: #cccccc; /* Used if the image is unavailable */
+    /* height: 500px; You must set a specified height */
+    /* background-position: center; Center the image */
+    /* background-repeat: no-repeat; Do not repeat the image */
+    /* background-size: cover; Resize the background image to cover the entire container */
+}
+
+/* body::before {
+    content: "";
+    background-image: url("money.jpg");
+    background-size: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+} */
+
+h1 {
+    color: #f6d55c;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+    font-size: 12px;
+    text-align: center; 
+     
+  }
+
+  #table_section{
+      border: 10px solid pink;
+      padding: 5px;  
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#remaining_balance {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    font-weight: bold; 
+}
+
+#add_expense_section h2 {
+    font-size: 16px;
+}
+
+#table_section h2 {
+    font-size: 16px;
+}
+
+#spend_section h2 {
+    font-size: 16px;
+}
+
+#add_expense_section {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+#category_label {
+    display: block; 
+}
+
+#expense_amount_label {
+    justify-content: flex-end; 
+    flex-direction: row; 
+    display: block; 
+}
+
+#submit_expense {
+    width: 100%;
+}
+
+input { 
+    width: 50%;
+     
+}
+
+#piechart {
+
+}
+
+
+
+
